@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    background-color: #040128;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    padding: 0px 0px 300px;
+    
+}
+
+.headers {
+    
+    color: #F8F32B;
+    font-size: 70px;
+    padding: 10px;
+    
+    text-align: center;
+    
+    font-family: 'Comforter', cursive;
+    
+    
+}
+ 
+h1{
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    
+    font-family: 'Comforter', cursive;
+}
+p{
+    color: #FFFFFF;
+    font: italic;
+    
+}
+
+.fg{
+    float:left; /* Выравнивание по левому краю */
+    margin: 0px 20px 3px 0; /* Отступы вокруг картинки */
+}
+
+.sidenav {
+    display: flex; 
+    background-color: black; 
+    overflow-x: hidden; 
+    flex: 0 1 15%;
+    padding: 0 0 1000px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 30px; 
+    margin-right: 30px; 
+    padding: 0px 10px;
+    display: flex;
+    flex: 0 1 70%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav1 {
+    display: flex; 
+    flex: 0 1 15px;
+    background-color: black; 
+    overflow-x: hidden; 
+}
+
+.v {
+    border-left: 6px double white;
+    height: 1000px;
+    position: absolute;
+    margin-left: -40px;
+    border-right: 6px double white;
+    margin-right: 220px;
+    padding: 0 30px;
+    
+}
+
+.k {
+    border-bottom: 6px double white;
+    border-width: 6px double white;
+}
+
+
+
+
+
+/* стиль меню */
+
+.res{
+    background-color: black;
+}
+
+.q{
+    display: flex;
+   
+}
